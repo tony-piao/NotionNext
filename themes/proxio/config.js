@@ -2,7 +2,7 @@
  * 另一个落地页主题
  */
 const CONFIG = {
-    PROXIO_WELCOME_COVER_ENABLE: false, //是否显示页面进入的欢迎文字
+    PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
     PROXIO_WELCOME_TEXT: '欢迎来到此网站，点击任意位置进入', // 欢迎文字，留空则不启用
 
     // 英雄区块导航
@@ -242,7 +242,7 @@ const CONFIG = {
     PROXIO_404_BACK: '回到主页',
 
     // 页面底部的行动呼吁模块
-    PROXIO_CTA_ENABLE: true,
+    PROXIO_CTA_ENABLE: false,
     PROXIO_CTA_TITLE: '与我建立联系',
     PROXIO_CTA_TITLE_2: '让我们立刻启动您的项目',
     PROXIO_CTA_DESCRIPTION:
